@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange)](LICENSE)
 [![Pre6G](https://img.shields.io/badge/Pre6G-申报准备中-lightgrey)]()
 
+**开源仓库**：<https://github.com/zhouhengchang/network-energy-agent>
+
 > ⚠️ **安全边界（先看这条）**：本项目**不控制任何真实基站硬件**。仅使用只读负载数据 + 模拟决策记录，所有"休眠指令"只写入本地文件与日志，**绝不下发至真实设备**，仓库内不存在任何网元写通道。
 
 ---

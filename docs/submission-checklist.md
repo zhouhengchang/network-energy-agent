@@ -48,7 +48,7 @@
 
 | 编号 | 材料 | 说明 | 状态 |
 |---|---|---|---|
-| C1 | GitHub 仓库链接 | `https://github.com/<待填写>/network-energy-agent` | ⬜ |
+| C1 | GitHub 仓库链接 | `https://github.com/zhouhengchang/network-energy-agent`（公开仓库，main 分支） | ✅ |
 | C2 | 开源协议 | Apache-2.0（`LICENSE`） | ✅ |
 | C3 | README（含一键运行步骤） | `README.md` | ✅ |
 | C4 | 依赖清单 | `requirements.txt` | ✅ |
@@ -105,7 +105,7 @@ network-energy-agent/
 
 | 编号 | 材料 | 内容 | 状态 |
 |---|---|---|---|
-| E1 | 联系人姓名 | `<待填写>` | ⬜ |
+| E1 | 联系人姓名 | 周恒昌 | ✅ |
 | E2 | 联系电话 / 邮箱 | `<待填写>` | ⬜ |
 | E3 | 期望试验时间窗口 | 申报通过后 2~4 周内启动，为期 7 天连续运行 | ⬜ |
 | E4 | 期望试验场景 | 单小区多扇区（3~6 扇区），夜间话务回落明显区域 | ⬜ |
@@ -130,7 +130,7 @@ network-energy-agent/
 
 | 项 | 内容 |
 |---|---|
-| 承诺人 | `<待填写>` |
+| 承诺人 | 周恒昌 |
 | 日期 | `<待填写>` |
 | 签字/电子签名 | `<待填写>` |
 
