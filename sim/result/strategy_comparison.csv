@@ -1,0 +1,4 @@
+strategy,description,total_energy_kwh,energy_saving_pct,weighted_unserved_pct,peak_unserved_pct,sleep_sector_steps
+always_on,全开基线：所有扇区全天常开,119.2543,0.0,0.0,0.0,0
+random_sleep,随机基线：候选中随机 50% 休眠（不校验 QoS）,94.6373,20.642,0.1146,1.5,131
+agent_sleep,Agent 智能休眠：加权多目标择优 + QoS 硬约束 + 突发回滚,84.407,29.221,0.1462,1.0,186

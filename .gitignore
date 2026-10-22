@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行产物（结果 CSV 与图表建议随仓库提交，便于审核方直接查看；
+# 如果你只想提交代码，可取消下面两行注释）
+# sim/result/*.csv
+# sim/result/*.png
+
+# 本地产物
+*.log
+.idea/
+.vscode/
+.DS_Store
+
+# 试验网阶段：任何真实 KPI 数据一律不进仓库
+data/real/
+*.real.csv

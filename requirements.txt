@@ -1,0 +1,30 @@
+# ============================================================
+# Network Energy Agent - 依赖清单
+# ------------------------------------------------------------
+# 环境要求：Python >= 3.11（开发环境为 3.13）
+# 算力要求：仅 CPU，无需 GPU / 无需训练集群
+#
+# 安装：
+#   pip install -r requirements.txt
+#
+# 国内网络建议加镜像：
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# ============================================================
+
+# --- 核心：LangGraph 决策图 ---
+langgraph>=1.0,<2.0
+langchain-core>=1.0,<2.0
+
+# --- 数据与数值计算（仿真数据源必需）---
+numpy>=1.26
+
+# --- 本地大模型推理客户端（仅用于决策解释，可选）---
+# 需本地已安装 Ollama 服务并拉取模型，例如：
+#   ollama pull qwen2.5-coder:0.5b
+ollama>=0.3
+
+# --- 数据分析与绘图（可选）---
+# 仅当需要 pandas 做二次分析、或用 matplotlib 导出 PNG 图表时使用。
+# 不安装时：CSV 结果照常生成，compare_and_plot.py 会自动跳过图表导出。
+pandas>=2.0
+matplotlib>=3.8
